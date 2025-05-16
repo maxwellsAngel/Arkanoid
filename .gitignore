@@ -30,3 +30,26 @@
 *.exe
 *.out
 *.app
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Dependency directories that should be installed separately
+# Uncomment if you're not including these in your repo
+# extern/glfw/
+# extern/glad/
+# extern/glm/
+
+# Generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+.ninja_*
+build.ninja
+meson-*
